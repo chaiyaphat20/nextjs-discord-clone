@@ -4,7 +4,7 @@
   "prettier.useTabs": true,
   "cSpell.ignoreRegExpList": ["/[\\u0E00-\\u0E7F]/g"],
   "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off", //afterDelay
   "files.autoSaveDelay": 1000,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
