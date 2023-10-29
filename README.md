@@ -51,3 +51,10 @@ https://clerk.com/docs/quickstarts/nextjs
 1.npm install @clerk/nextjs
 
 ```
+
+# 6.set dark theme
+
+```
+npm install next-themes
+npx shadcn-ui@latest add dropdown-menu
+```
