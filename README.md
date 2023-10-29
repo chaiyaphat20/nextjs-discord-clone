@@ -65,6 +65,7 @@ npx shadcn-ui@latest add dropdown-menu
 npm i -D prisma
 npx prisma init
 
+
 1.Sequelize
 2.typeorm
 3.Prisma
@@ -83,3 +84,30 @@ ORM คือ object Relational Mapping ใช้เปลงข้อมูล�
 ```
 
 # 8.
+
+```
+https://app.planetscale.com/
+สร้าง db ฟรี ไม่เสียเงิน แถม online
+```
+
+# 9. generate prisma
+
+```
+npx prisma generate
+npx prisma db push
+
+```
+
+# 10
+
+```
+npm i @prisma/client
+
+```
+
+# 11 ดู ข้อมูลบน db
+
+```
+npx prisma studio
+
+```
