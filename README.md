@@ -58,3 +58,28 @@ https://clerk.com/docs/quickstarts/nextjs
 npm install next-themes
 npx shadcn-ui@latest add dropdown-menu
 ```
+
+# 7.install prisma
+
+```
+npm i -D prisma
+npx prisma init
+
+1.Sequelize
+2.typeorm
+3.Prisma
+ทั้ง 3 ตัว คือ ตัวจัดการ DB ซึ่งเขียนในรูปแบบ ORM
+ช่วยจัดการ ฐานข้อมูลให้ เช่น
+nestjs ใช้ typeorm รองรับทั้ง TS,JS
+express ใช้ sequelize รองรับทั้ง TS,JS
+nextjs ใช้ primas น่าจะใช้ง่ายสุด ข้อดีคือใช้ กับ GraphQL ได้ รองรับทั้ง TS,JS
+
+ภาษาอื่นเช่น
+1. Go ใช้ gorm จัดการ db ในรูปแบบ ORM
+2. c# (.Net Framework ) ก็เช่น Entity Framework (EF) หรือ Dapper จัดการ db ในรูปแบบ ORM
+3. TS,JS (Sequelize,typeorm,Prisma)
+
+ORM คือ object Relational Mapping ใช้เปลงข้อมูลในDB เป็น Object และ แปลง Object เป็น ข้อมูลใน DB  โดยไม่ต้องใช้ SQL โดยตรง
+```
+
+# 8.
