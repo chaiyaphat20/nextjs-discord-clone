@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+:root {  /*:root เป็น pseudo-class */
+  height: 100%;
+}
  
 @layer base {
   :root {

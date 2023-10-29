@@ -26,3 +26,12 @@ https://github.com/shadcn-ui/ui/issues/755
 + "css": "scr/app/globals.css",
 3.npm run dev
 ```
+
+# 3.setting global.css
+```
+html,
+body,
+:root {  /*:root เป็น pseudo-class */
+  height: 100%;
+}
+```
