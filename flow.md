@@ -6,3 +6,13 @@
 3.ถ้า ไม่มี การ login จะไม่สามารถดึง ข้อมูล current user ได้ มันจะ redirect ไปหน้า login
 4.ดูข้อมูล ใช้คำสั่ง npx prisma studio
 ```
+
+# 2.Link
+
+```
+1.https://uploadthing.com/  -> upload image
+$ npm install uploadthing @uploadthing/react
+
+2.dropzone
+$ npm i react-dropzone
+```
