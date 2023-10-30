@@ -10,9 +10,19 @@
 # 2.Link
 
 ```
-1.https://uploadthing.com/  -> upload image
+1.upload image and server
+1.1 https://uploadthing.com/  -> upload image
 $ npm install uploadthing @uploadthing/react
 
-2.dropzone
+1.2.dropzone -> ใช้ drag and drop file image
 $ npm i react-dropzone
+
+2.db ฟรีๆ onCloud
+https://app.planetscale.com/
+
+3.ทำ Login with google
+https://clerk.com
+
+4.css
+https://ui.shadcn.com/
 ```
