@@ -34,7 +34,7 @@ const NavigationSidebar = async () => {
       <ScrollArea className="flex-1 w-full">
         {servers.map((server) => (
           <Fragment key={server.id}>
-            <div className="h-96" key={server.id}>
+            <div className="mb-4" key={server.id}>
               <NavigationItem
                 id={server.id}
                 name={server.name}
